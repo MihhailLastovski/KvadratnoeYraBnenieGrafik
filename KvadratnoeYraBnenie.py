@@ -27,9 +27,9 @@ def solution():
             x2=(-1*float(b)-sqrt(float(D)))/(2*float(a))
             lbl4.configure(text=f"""D={round(D,2)}\n x1={round(x1,2)}\n x2={round(x2,2)}""")
             graf=True
-            txt.configure(bg="lightblue")
-            txt2.configure(bg="lightblue")
-            txt3.configure(bg="lightblue")
+        txt.configure(bg="lightblue")
+        txt2.configure(bg="lightblue")
+        txt3.configure(bg="lightblue")
     else:
         if txt.get() == "":
             txt.configure(bg = "firebrick")
