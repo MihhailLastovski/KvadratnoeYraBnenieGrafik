@@ -10,7 +10,7 @@ t=1
 graf=False
 def solution():
     global D,x1,x2,graf
-    if (txt.get()!="" and txt2.get!="" and txt3.get()!=""):
+    if (txt.get()!="" and txt2.get()!="" and txt3.get()!=""):
         a=float(txt.get())
         b=float(txt2.get())
         c=float(txt3.get())
