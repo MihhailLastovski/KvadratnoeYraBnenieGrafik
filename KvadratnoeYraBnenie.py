@@ -98,7 +98,7 @@ def kala():
     plt.xlabel('x')
     plt.grid(True)
     plt.show()
-def O4KI():
+def ochki():
     x1 = np.arange(-9, -0.5, 0.5)#min max step
     y1=-(1/16)*(x1+5)**2+2
     x2 = np.arange(1, 9.5, 0.5)#min max step
@@ -186,7 +186,7 @@ def figura():
     if valik==1:
         kala()
     elif valik==2:
-        O4KI()
+        ochki()
     elif valik==3:
         babochka()
     else:
