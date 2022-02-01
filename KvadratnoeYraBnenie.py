@@ -230,27 +230,3 @@ r2.pack()
 r3.pack()
 r4.pack()
 aken.mainloop()
-
-#Если поле не заполненно, то после нажатия на кнопку "Решить", должен измениться цвет фона, но программа вылетает
-
-#1
-#if len(txt.get()) == 0:
-#    lbltxt=Label(aken,width=3,font="Arial 20",fg="green",bg="red",relief="flat")
-#    lbltxt.place(relx=0.05, rely=0.5, anchor=CENTER)
-#    lbl4.configure(text="Введите значение")
-
-#2
-#if a=="":
-#    txt.configure(bg="red")
-#    lbl4.configure(text="Введите значение")
-
-    #if a.get()=="":
-    #    txt.configure(bg="red")
-    #if b.get()=="":
-    #    txt2.configure(bg="red")
-    #if c.get()=="":
-    #    txt3.configure(bg="red")
-    #else:
-    #    txt.configure(bg="lightblue")
-    #    txt2.configure(bg="lightblue")
-    #    txt3.configure(bg="lightblue")
